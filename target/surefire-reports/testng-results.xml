@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-13T22:27:50Z" name="Creatio Test Suite" finished-at="2022-09-13T22:28:42Z" duration-ms="51757">
+    <groups>
+    </groups>
+    <test started-at="2022-09-13T22:27:50Z" name="Creatio Regression Test" finished-at="2022-09-13T22:28:42Z" duration-ms="51757">
+      <class name="com.qa.creatio.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.creatio.tests.LoginPageTest@69379752]" started-at="2022-09-13T22:27:50Z" name="setup" finished-at="2022-09-13T22:27:55Z" duration-ms="4719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginPageTitleTest()[pri:1, instance:com.qa.creatio.tests.LoginPageTest@69379752]" started-at="2022-09-13T22:27:55Z" name="VerifyLoginPageTitleTest" finished-at="2022-09-13T22:27:55Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.creatio.tests.LoginPageTest@69379752]" started-at="2022-09-13T22:27:55Z" name="tearDown" finished-at="2022-09-13T22:27:56Z" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.creatio.tests.LoginPageTest@69379752]" started-at="2022-09-13T22:28:07Z" name="setup" finished-at="2022-09-13T22:28:11Z" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCreateAccountLinkTest()[pri:2, instance:com.qa.creatio.tests.LoginPageTest@69379752]" started-at="2022-09-13T22:28:11Z" name="verifyCreateAccountLinkTest" finished-at="2022-09-13T22:28:11Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccountLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.creatio.tests.LoginPageTest@69379752]" started-at="2022-09-13T22:28:11Z" name="tearDown" finished-at="2022-09-13T22:28:12Z" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.creatio.tests.LoginPageTest@69379752]" started-at="2022-09-13T22:28:23Z" name="setup" finished-at="2022-09-13T22:28:27Z" duration-ms="4395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="doLoginTest()[pri:3, instance:com.qa.creatio.tests.LoginPageTest@69379752]" started-at="2022-09-13T22:28:27Z" name="doLoginTest" finished-at="2022-09-13T22:28:31Z" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.creatio.tests.LoginPageTest@69379752]" started-at="2022-09-13T22:28:31Z" name="tearDown" finished-at="2022-09-13T22:28:31Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.creatio.tests.LoginPageTest -->
+      <class name="com.qa.creatio.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.creatio.tests.HomePageTest@27fe3806]" started-at="2022-09-13T22:27:56Z" name="setUp" finished-at="2022-09-13T22:28:07Z" duration-ms="11104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verfyHomePageTitleTest()[pri:1, instance:com.qa.creatio.tests.HomePageTest@27fe3806]" started-at="2022-09-13T22:28:07Z" name="verfyHomePageTitleTest" finished-at="2022-09-13T22:28:07Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.creatio.tests.HomePageTest@27fe3806]" started-at="2022-09-13T22:28:07Z" name="tearDown" finished-at="2022-09-13T22:28:07Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.creatio.tests.HomePageTest@27fe3806]" started-at="2022-09-13T22:28:12Z" name="setUp" finished-at="2022-09-13T22:28:23Z" duration-ms="10896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.creatio.tests.HomePageTest@27fe3806]" started-at="2022-09-13T22:28:23Z" name="verifyHomePageHeaderTest" finished-at="2022-09-13T22:28:23Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.creatio.tests.HomePageTest@27fe3806]" started-at="2022-09-13T22:28:23Z" name="tearDown" finished-at="2022-09-13T22:28:23Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.creatio.tests.HomePageTest@27fe3806]" started-at="2022-09-13T22:28:31Z" name="setUp" finished-at="2022-09-13T22:28:42Z" duration-ms="11033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoggedInAccountNameTest()[pri:3, instance:com.qa.creatio.tests.HomePageTest@27fe3806]" started-at="2022-09-13T22:28:42Z" name="verifyLoggedInAccountNameTest" finished-at="2022-09-13T22:28:42Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInAccountNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.creatio.tests.HomePageTest@27fe3806]" started-at="2022-09-13T22:28:42Z" name="tearDown" finished-at="2022-09-13T22:28:42Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.creatio.tests.HomePageTest -->
+    </test> <!-- Creatio Regression Test -->
+  </suite> <!-- Creatio Test Suite -->
+</testng-results>

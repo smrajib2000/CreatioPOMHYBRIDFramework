@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Creatio Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.creatio.listeners.ExtentReportListener"/>
+	</listeners>
+
+	<test name="Creatio Regression Test">
+		<classes>
+			<class name="com.qa.creatio.tests.LoginPageTest"/>
+			<class name="com.qa.creatio.tests.HomePageTest"/>
+			
+		</classes>
+	</test>
+</suite>
